@@ -7,12 +7,6 @@ public class CameraController : MonoBehaviour
     public GameObject target; // 카메라가 따라갈 대상
     public float moveSpeed = 5f;  // 카메라 속도
     private Vector3 targetPosition;  // 대상의 위치 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
